@@ -1,0 +1,41 @@
+.Error {
+    background-color: white;
+    color: #ff6060;
+  }
+  .Error-code {
+    width: 100%;
+    font-size: 17rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 1.5rem auto;
+  }
+  .Error-message {
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .Error-back-link {
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 5rem auto;
+  }
+  .Error-back-link a {
+    color: #ff6060;
+  }
+  
+  @media screen and (max-width: 550px) {
+    .Error-code {
+      font-size: 8rem;
+    }
+    .Error-message {
+      font-size: 1.5rem;
+    }
+    .Error-back-link {
+      font-size: 1rem;
+    }
+  }
+  

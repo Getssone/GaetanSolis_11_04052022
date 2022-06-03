@@ -1,0 +1,58 @@
+.collapse {
+  position: relative;
+}
+.collapse-title {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 0rem 2rem;
+  background-color: #ff6060;
+  border-radius: 0.5rem;
+  line-height: 0.5rem;
+}
+.collapse-title h2 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.collapse-title i {
+  color: white;
+  line-height: 3rem;
+  font-size: 1.5rem;
+}
+
+.collapse-content_closed {
+  display: none;
+}
+.collapse-content_open {
+  position: relative;
+  top: -2rem;
+  z-index: -1;
+  list-style: none;
+  background-color: #f6f6f6;
+  padding: 2rem;
+  color: #ff6060;
+  font-size: 1.5rem;
+  font-weight: 400;
+  hyphens: auto;
+  text-indent: 1.5rem;
+}
+.collapse-content_open li {
+  text-indent: 0rem;
+  padding-bottom: 0.3rem;
+}
+
+@media screen and (max-width: 550px) {
+  .collapse-content_open {
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-align: left;
+  }
+  .collapse-open {
+    margin: 0;
+  }
+  .collapse-title h2 {
+    font-size: 1.3rem;
+    padding-left: 0.1rem;
+  }
+}

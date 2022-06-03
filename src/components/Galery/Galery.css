@@ -1,0 +1,29 @@
+.galery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #f6f6f6;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 2rem;
+}
+.nodatas {
+  width: 65%;
+  height: 5rem;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 3rem 1rem 1rem 1rem;
+  margin: 2rem auto;
+  background-color: #f5afaf;
+  text-align: center;
+  border-radius: 2rem;
+}
+
+@media screen and (max-width: 830px) {
+  .galery {
+    background-color: white;
+    margin-top: -1rem;
+    padding: 0;
+  }
+}

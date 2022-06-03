@@ -1,0 +1,41 @@
+header {
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  margin: 3% auto;
+  padding: 0 8%;
+}
+.nav-Header {
+  font-weight: 500;
+  display: flex;
+  justify-content: space-around;
+  line-height: 4rem;
+}
+.links1,
+.links2 {
+  color: #ff6060;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.links2 {
+  padding-left: 2rem;
+}
+.logo-Header {
+  width: 12rem;
+}
+.selected {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 550px) {
+  .links1,
+  .links2 {
+    font-size: 1rem;
+  }
+  .links2 {
+    padding-left: 0.5rem;
+  }
+  .logo-Header {
+    width: 8rem;
+  }
+}
