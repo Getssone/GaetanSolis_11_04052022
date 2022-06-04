@@ -67,6 +67,7 @@
   }
   .houseInfos p {
     font-size: 1.1rem;
+    color:#ff6060
   }
   .tags {
     flex-wrap: wrap;
